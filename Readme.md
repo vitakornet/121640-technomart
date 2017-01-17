@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Vita Kornet](https://up.htmlacademy.ru/htmlcss/16/user/121640).
-* Наставник: `Неизвестно`.
+* Наставник: [Леонид Лебедев](https://htmlacademy.ru/profile/leonidlebedev).
 
 ---
 
