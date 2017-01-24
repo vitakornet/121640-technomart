@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum|PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -11,7 +13,7 @@
     <div class="container">
       <div class="header-top">
         <div class="logo">
-          <a href="index.html"><img src="img/logo.png" alt="Техномарт" width="222" height="48"></a>
+          <a href="index.html"><img src="img/logo-header.png" alt="Техномарт" width="222" height="48"></a>
         </div>
         <ul class="header-search-block">
           <li>
@@ -158,7 +160,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 3000">
+            <img src="img/item-bosch-3000.jpg" alt="Перфоратор BOSCH BFG 3000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 3000
@@ -177,7 +179,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 6000">
+            <img src="img/item-bosch-6000.jpg" alt="Перфоратор BOSCH BFG 6000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 6000
@@ -209,7 +211,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 3000">
+            <img src="img/item-bosch-3000.jpg" alt="Перфоратор BOSCH BFG 3000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 3000
@@ -228,7 +230,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 6000">
+            <img src="img/item-bosch-6000.jpg" alt="Перфоратор BOSCH BFG 6000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 6000
@@ -247,7 +249,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 2000">
+            <img src="img/item-bosch-2000.jpg" alt="Перфоратор BOSCH BFG 2000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 2000
@@ -263,7 +265,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 3000">
+            <img src="img/item-bosch-3000" alt="Перфоратор BOSCH BFG 3000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 3000
@@ -282,7 +284,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 6000">
+            <img src="img/item-bosch-6000.jpg" alt="Перфоратор BOSCH BFG 6000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 6000
@@ -301,7 +303,7 @@
             <a class="btn mark-btn" href="#">В закладки</a>
           </div>
           <div class="item-image">
-            <img src="img/item1.jpg" alt="Перфоратор BOSCH BFG 2000">
+            <img src="img/item-bosch-2000.jpg" alt="Перфоратор BOSCH BFG 2000">
           </div>
           <div class="item-title">
             Перфоратор Bosch BFG 2000
@@ -334,7 +336,7 @@
     <div class="container">
       <div class="footer-top">
         <div class="footer-logo">
-          <a href="index.html"><img src="img/logo_footer.png" alt="Техномарт" width="222" height="68"></a>
+          <a href="index.html"><img src="img/logo-footer.png" alt="Техномарт" width="222" height="68"></a>
         </div>
         <div class="footer-contacts">
           <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> +7 (812) 555-05-55</p>
@@ -393,6 +395,20 @@
       </div>
     </div>
   </footer>
+
+  <!--Модальное окно, информирующее о добавлении товара в корзину-->
+  <div class="modal item-added">
+    <a class="modal-close" href="#"><i class="icon-modal-close"></i></a>
+    <i class="icon-item-added"></i>
+    <div class="item-added-title">
+      Товар добавлен в корзину!
+    </div>
+    <div class="modal-actions">
+      <a href="#" class="btn checkout">Оформить заказ</a>
+      <a href="#" class="btn next">Продолжить покупки</a>
+    </div>
+  </div>
+
 </body>
 
 </html>
