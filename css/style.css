@@ -1,20 +1,213 @@
-    body {
-    font-family: "Cuprum", "PT Sans", sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: normal;
-    color: #000;
-  }
+      body {
+        font-family: "Cuprum", "PT Sans", sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        line-height: normal;
+        color: #000;
+        background-color: #fff;
+      }
 
-  h1 {
-    font-size: 30px;
-    font-weight: normal;
-    line-height: 0.8em;
-    color: #32425c;
-  }
+      h1 {
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 0.8em;
+        color: #32425c;
+      }
 
-  h2 {
-    font-size: 30px;
-    font-weight: normal;
-    line-height: 0.8em;
-    color: #000;
+      h2 {
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 0.8em;
+        color: #000;
+      }
+
+      h3 {
+        font-size: 36px;
+        font-weight: normal;
+        line-height: 0.8em;
+      }
+
+      h4 {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.2em;
+        color: #fff;
+      }
+
+      .container {
+        width: 960px;
+        padding: 0 10px;
+        margin: 0 auto;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      header {
+        min-height: 320px;
+        background-color: #f1f5f7;
+        margin-bottom: 60px;
+      }
+
+      .header-top {
+        min-height: 42px;
+        background-color: #293449;
+      }
+
+      .logo {
+        width: 220px;
+        float: left;
+        margin-right: 20px;
+      }
+
+      .header-search-block {
+        float: left;
+        width: 540px;
+        margin-right: 10px;
+      }
+
+      .checkout {
+        width: 150px;
+        float: right;
+      }
+
+      .header-about {
+        min-height: 154px;
+      }
+
+      .header-about-content {
+        width: 300px;
+        float: left;
+      }
+
+      .header-about-content p {
+        padding-left: 54px;
+        margin-right: 20px;
+      }
+
+      .header-contacts {
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+      }
+
+      .user-block {
+        width: 300px;
+        float: right;
+      }
+
+      .main-navigation {
+        min-height: 60px;
+        background-color: #32425c;
+        margin-bottom: 60px;
+      }
+
+      .main-catalog-item {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 300px;
+        min-height: 123px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+
+      .main-catalog-item:nth-child(3), .main-catalog-item:last-child {
+        margin-right: 0;
+      }
+
+      .main-catalog-item:last-child {
+        margin-bottom: 0;
+      }
+
+      .materials {
+        background-color: #f6b22d;
+        float: left;
+      }
+
+      .tools {
+        background-color: #4aafde;
+        float: left;
+      }
+
+      .technics {
+        background-color: #cc79d1;
+        float: right;
+      }
+
+      .main-slider {
+        width: 620px;
+        min-height: 266px;
+        float: left;
+        margin-top: 20px;
+        margin-right: 20px;
+      }
+
+      .slide-content {
+        display: inline;
+        min-height: 105px;
+        margin: 25px 25px;
+      }
+
+      .slide-2 {
+        display: none;
+      }
+
+      .discounts {
+        background-color: #85d179;
+        float: right;
+      }
+
+      .delivery {
+        background-color: #f6b22d;
+        float: right;
+      }
+
+      .populars {
+        min-height: 90px;
+        background-color: #f7f3ec;
+        margin-top: 54px;
+      }
+
+      .popular-title {
+        float: left;
+        margin-left: 30px;
+      }
+
+      a.items {
+        float: right;
+        margin-left: 24px;
+      }
+
+      .services {
+        height: 520px;
+        background-color: #f2f6f8;
+      }
+
+      .company {
+        height: 538px;
+        background-color: #f2f6f8;
+      }
+
+      .about-company {
+        width: 620px;
+        margin-top: 82px;
+      }
+
+      .catalog-item {
+        height: 318px;
+        width: 220px;
+        border: 1px solid #e5e5e5;
+      }
+
+      .footer-top {
+        height: 192px;
+        background-color: #32425c;
+      }
+
+      .footer-bottom {
+        height: 108px;
+        background-color: #293449;
+      }
