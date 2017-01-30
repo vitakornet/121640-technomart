@@ -108,6 +108,7 @@
       .main-catalog-item {
         display: inline-block;
         box-sizing: border-box;
+        float: left;
         width: 300px;
         min-height: 123px;
         margin-right: 20px;
@@ -137,11 +138,11 @@
         float: right;
       }
 
-      .main-slider {
+      .main-slider, .slider-1 {
         width: 620px;
         min-height: 266px;
         float: left;
-        margin-top: 20px;
+        position: relative;
         margin-right: 20px;
       }
 
@@ -149,6 +150,13 @@
         display: inline;
         min-height: 105px;
         margin: 25px 25px;
+      }
+
+      a.slider-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
       }
 
       .slide-2 {
