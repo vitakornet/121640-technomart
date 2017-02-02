@@ -11,7 +11,7 @@
 
   h1 {
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 30px;
     line-height: 0.8em;
     color: #32425c;
   }
@@ -34,6 +34,13 @@
     font-weight: normal;
     line-height: 1.2em;
     color: #fff;
+  }
+
+  h5 {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #000;
   }
 
   .clearfix::after {
@@ -82,6 +89,7 @@
 
   form.search {
     float: left;
+    margin-right: 160px;
   }
 
   .checkout {
@@ -102,25 +110,89 @@
   }
 
   .header-bottom-content {
-    width: 300px;
-    height: 148px;
-    margin: 10px 0;
+    height: 160px;
   }
 
-  .header-bottom-content p {
+  .header-bottom-content-title {
+    box-sizing: border-box;
+    width: 300px;
     padding-left: 54px;
+    padding-top: 45px;
+  }
+
+  .header-bottom-content-title p {
+    float: left;
     margin-right: 20px;
+    font-size: 16px;
+    line-height: 23px;
+    font-style: italic;
+    color: #ee3643;
   }
 
   .header-contacts {
-    width: 300px;
+    width: 320px;
     float: left;
     margin-right: 20px;
+    margin-bottom: 8px;
+  }
+
+  .header-contacts-phone a {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    height: 46px;
+    background-color: #f1f5f7;
+    border: 3px solid #fff;
+    color: #e9292a;
+    font-size: 21px;
+    text-decoration: none;
+  }
+
+  .header-contacts-address {
+    width: 400px;
+    float: left;
+  }
+
+  .header-contacts-address p {
+    color: #32425c;
+    font-size: 14px;
+    line-height: 0px;
   }
 
   .user-block {
     width: 300px;
     float: right;
+  }
+
+  .sign-in {
+    float: left;
+    width: 122px;
+    height: 46px;
+    margin-right: 10px;
+    background-color: #fff;
+  }
+
+  .sign-up {
+    float: right;
+    width: 150px;
+    height: 46px;
+    background-color: #fff;
+  }
+
+  .account-field {
+    float: right;
+    width: 300px;
+    height: 45px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .account-field a {
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 0;
+    color: inherit;
+    width: 300px;
   }
 
   .main-navigation {
@@ -327,6 +399,8 @@
   .service-slide {
     position: absolute;
     z-index: 1;
+    background-color: #f2f6f8;
+    width: 380px;
   }
 
   .company {
@@ -368,7 +442,7 @@
   }
 
   .footer {
-    height: 300px;
+    height: 296px;
     background-color: #32425c;
     color: #fff;
   }
@@ -396,8 +470,8 @@
   }
 
   .footer-nav-bottom {
-    float: right;
     color: #ffd180;
+    float: right;
   }
 
   .footer-nav-bottom a {
@@ -405,8 +479,14 @@
     text-decoration: none;
   }
 
+  .footer-nav-bottom li {
+    display: inline;
+  }
+
   .footer-contacts {
     float: left;
+    width: 380px;
+    margin-right: 36px;
   }
 
   .footer-top {
@@ -423,6 +503,14 @@
     float: left;
     width: 320px;
     margin-right: 60px;
+  }
+
+  .footer-second-line {
+    float: left;
+  }
+
+  .footer-first-line {
+    float: left;
   }
 
   .social-btn {
@@ -443,4 +531,101 @@
 
   .modal {
     display: none;
+  }
+
+  .breadcrumbs {
+    height: 60px;
+  }
+
+  .catalog-header {
+    height: 90px;
+    margin-bottom: 20px;
+    background-color: #f2f6f8;
+    color: #32425c;
+  }
+
+  .filters {
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+  }
+
+  .filter-header {
+    min-height: 38px;
+    background-color: #f7f3ec;
+  }
+
+  .filters-form legend {
+    height: 54px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .filter-range {
+    height: 128px;
+    margin-bottom: 25px;
+    text-transform:
+  }
+
+  .range-controls {
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #f7f3ec;
+  }
+
+  .price-controls input {
+    background-color: #f7f3ec;
+    width: 74px;
+    float: left;
+    margin-bottom: 25px;
+  }
+
+  .price-controls input.price-max {
+    float: right;
+    margin-left: 32px;
+  }
+
+  .filter-makers {
+    min-height: 263px;
+  }
+
+  .filter-makers legend, .filter-power legend {
+    min-height: 60px;
+  }
+
+  .filter-power {
+    min-height: 190px;
+    margin-bottom: 10px;
+  }
+
+  .catalog-items {
+    float: right;
+    width: 700px;
+    min-height: 994px;
+  }
+
+  .catalog-items-header {
+    background-color: #f7f3ec;
+    min-height: 38px;
+    margin-bottom: 20px;
+  }
+
+  .catalog-items>.catalog-item:nth-child(3), .catalog-item:nth-child(6) {
+    float: right;
+    margin-right: 0;
+  }
+
+  .pagination {
+    width: 700px;
+    height: 38px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    float: right;
+  }
+
+  .catalog-info {
+    box-sizing: border-box;
+    height: 260px;
+    background-color: #f2f6f8;
+    padding-top: 60px;
   }

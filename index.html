@@ -32,19 +32,21 @@
 
     <div class="container clearfix">
       <div class="header-bottom-content">
-        <p>Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</p>
-      </div>
-      <div class="header-contacts">
-        <div class="header-contacts-phone">
-          <a href="tel:+7(812)5550555">+7 (812) 555-05-55<i class="icon-phone"></i></a>
+        <div class="header-bottom-content-title">
+          <p>Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</p>
+        </div>
+        <div class="header-contacts">
+          <div class="header-contacts-phone">
+            <a href="tel:+7(812)5550555">+7 (812) 555-05-55<i class="icon-phone"></i></a>
+          </div>
+        </div>
+        <div class="user-block">
+          <a href="#" class="sign-in"><i class="icon-signin"></i>Войти</a>
+          <a href="#" class="sign-up">Регистрация</a>
         </div>
         <div class="header-contacts-address">
-          г. Санкт-Петербург, ул.Б. Конюшенная, д. 19/8
+          <p>г. Санкт-Петербург, ул.Б. Конюшенная, д. 19/8</p>
         </div>
-      </div>
-      <div class="user-block">
-        <a href="#" class="sign-in"><i class="icon-signin"></i>Войти</a>
-        <a href="#" class="sign-up">Регистрация</a>
       </div>
     </div>
 
@@ -74,7 +76,6 @@
           </li>
         </ul>
       </nav>
-    </div>
     </div>
   </header>
 
@@ -282,7 +283,7 @@
           </p>
           <div class="services-tabs">
             <input class="services-tab" type="radio" id="tab-delivery" checked>
-            <label for="tab-delivery ">Доставка</label>
+            <label for="tab-delivery">Доставка</label>
             <input class="services-tab" type="radio" id="tab-guarantee">
             <label for="tab-guarantee">Гарантия</label>
             <input class="services-tab" type="radio" id="tab-credit">
@@ -340,43 +341,48 @@
         </div>
       </div>
     </div>
-    </div>
   </main>
 
   <footer class="footer">
     <div class="container clearfix">
       <div class="footer-top">
-        <div class="footer-logo">
-          <a href="index.html"><img src="img/logo-footer.png" alt="Техномарт" width="222" height="68"></a>
-        </div>
-        <div class="footer-contacts">
-          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> +7 (812) 555-05-55</p>
-        </div>
+        <div class="footer-first-line">
+          <div class="footer-logo">
+            <a href="index.html"><img src="img/logo-footer.png" alt="Техномарт" width="222" height="68"></a>
+          </div>
 
-        <nav class="footer-nav-top">
-          <ul>
-            <li><a href="#">Компания</a>
-            </li>
-            <li><a href="#">Новости</a>
-            </li>
-            <li><a href="catalog.html">Каталог</a>
-            </li>
-            <li><a href="#">Доставка</a>
-            </li>
-            <li><a href="#">Контакты</a>
-            </li>
-          </ul>
-          <ul class="footer-nav-bottom">
-            <li><a href="#">Материалы</a>
-            </li>
-            <li><a href="#">Техника</a>
-            </li>
-            <li><a href="#">Инструмент</a>
-            </li>
-            <li><a href="#">Спецпредложения</a>
-            </li>
-          </ul>
-        </nav>
+          <nav class="footer-nav-top">
+            <ul>
+              <li><a href="#">Компания</a>
+              </li>
+              <li><a href="#">Новости</a>
+              </li>
+              <li><a href="catalog.html">Каталог</a>
+              </li>
+              <li><a href="#">Доставка</a>
+              </li>
+              <li><a href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-second-line">
+          <div class="footer-contacts">
+            <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> +7 (812) 555-05-55</p>
+          </div>
+          <nav class="footer-nav-bottom">
+            <ul>
+              <li><a href="#">Материалы</a>
+              </li>
+              <li><a href="#">Техника</a>
+              </li>
+              <li><a href="#">Инструмент</a>
+              </li>
+              <li><a href="#">Спецпредложения</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
 
@@ -428,13 +434,13 @@
     <a class="modal-close" href="#"><i class="icon-modal-close"></i></a>
     <form class="feedback-form" action="https://echo.htmlacademy.ru/ " method="post">
       <input class="feedback-form-field" type="text" name="name" id="name-field" placeholder="Представьтесь, пожалуйста">
-      <label class="feedback-form-label" for="name-field ">Ваше имя:</label>
+      <label class="feedback-form-label" for="name-field">Ваше имя:</label>
       <input class="feedback-form-field" type="email" name="email" id="email-field" placeholder="Для отправки ответа">
-      <label class="feedback-form-label" for="email-field ">Ваш e-mail:</label>
+      <label class="feedback-form-label" for="email-field">Ваш e-mail:</label>
 
 
       <label class="feedback-form-label" for="text-field">Текст письма:
-                    <textarea class="contact-form-item text-field" name="text " rows="5" id="text-field" placeholder="В свободной форме"></textarea>
+                    <textarea class="contact-form-item text-field" name="text" rows="5" id="text-field" placeholder="В свободной форме"></textarea>
                 </label>
       <div class="modal-actions">
         <input class="btn-send" type="submit" value="Отправить">
