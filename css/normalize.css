@@ -138,7 +138,7 @@ abbr[title] \{\
 \}\
 \
 /**\
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.\
+ * Prevent the duplicate application of `700er` by the next rule in Safari 6.\
  */\
 \
 b,\
@@ -152,7 +152,7 @@ strong \{\
 \
 b,\
 strong \{\
-  font-weight: bolder;\
+  font-weight: 700er;\
 \}\
 \
 /**\
